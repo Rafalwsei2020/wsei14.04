@@ -1,0 +1,21 @@
+span {
+
+    color: red;
+}
+
+div {
+    background: #2b1b88;
+}
+#block-model {
+    width: 200px;
+    height: 200px;
+background: lightgreen;
+padding: 20px;
+/* obramowanie */
+
+border: 1px solid black;
+border-bottom: 5px solid lightblue;
+
+margin: 10px 30px 50px 50px;
+margin-left: 5px;
+}
