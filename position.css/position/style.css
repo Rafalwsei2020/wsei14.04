@@ -1,0 +1,48 @@
+body {
+    background: grey;
+    display: flex;
+    justify-content: center;
+}
+main
+{
+    background: rgb(223, 233, 236);
+    width: 1000px;
+    height: 800px;
+    position: relative;
+    
+}
+
+main div
+{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    
+}
+#a1 {
+    background: lightcoral;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#a2 {
+    background: lightgreen;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 10;
+}
+#a3 {
+    background: lightyellow;
+    position: sticky;
+    top: 20px;
+    
+}
+#a4 {
+    background: lime;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    z-index: 40;
+}

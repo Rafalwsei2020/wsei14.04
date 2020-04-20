@@ -26,12 +26,14 @@ aside {
     width: 150px;
     height: 500px;
     background: lightcoral;
+    
 
 }
 article{
     width: 700px;
     height: 500px;
     background: lightcyan;
+     overflow: hidden; 
 }
 #right-panel {
     width: 150px;

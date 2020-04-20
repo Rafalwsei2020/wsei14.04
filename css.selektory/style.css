@@ -1,0 +1,35 @@
+/*selektor znacznika */
+div {
+background: lightblue;
+
+}
+
+/*elementy w elementach */
+ul li {
+    margin: 10px;
+}
+/*wspólne formatowanie dl section i article*/
+section, article {
+
+    padding: 10px;
+}
+/*formatowanie z użyciem id elementu */
+#naglowek{
+font-size: 20px;
+
+}
+.f20{
+    font-size: 24px;
+}
+
+.p40 {
+    padding: 40px;
+}
+/* pseudo klasy */
+a:hover {
+    background: lightblue;
+
+li:nth-child(2) {
+    background: lightblue
+}
+
