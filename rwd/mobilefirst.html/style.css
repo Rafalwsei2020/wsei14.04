@@ -1,0 +1,41 @@
+body {
+
+    background: #aaa;
+}
+main {
+    width: 100%;
+}
+header {
+    background: lightblue;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+}
+nav a {
+    margin: 0 5px;
+}
+section {
+    display: flex;
+    flex-direction: column ;
+}
+aside {
+    background: lightcoral;
+    order: 1;
+
+}
+#right-panel {
+    display: none;
+    background: lightpink;
+
+}
+@media (min-width: 550px) {
+    section {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #right-panel {
+        display: block;
+        width: 150px;
+    }
+}
