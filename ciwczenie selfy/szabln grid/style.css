@@ -1,0 +1,49 @@
+body {
+    background: #aaaaaa;
+}
+main {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 150px 700px 150px;
+    grid-template-rows: 150px 500px 150px;
+    grid-template-areas: 
+    "header header header"
+    "aside article rpanel"
+    "footer footer footer"
+    ;
+}
+header {
+ grid-area: header;
+ background: lightblue;   
+}
+nav {
+    display: flex;
+    /* zawijanie wierszy */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    margin: 0 5px;
+}
+
+
+aside {
+    grid-area: aside;
+    background: lightcoral;
+    
+
+}
+article{
+    grid-area: article;
+    background: lightcyan;
+    
+}
+#right-panel {
+    grid-area: rpanel;
+    background: lightgrey;
+}
+footer{
+    grid-area: footer;
+    background: red;
+}
